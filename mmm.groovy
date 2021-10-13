@@ -3,7 +3,7 @@ pipeline{
         stages{
             stage('SCM'){
                 steps{
-                    git url: ""
+                    git url: "https://github.com/Mohansaya/Pipe.git"
                 }
             }
             stage('ArchiveArtifacts'){
